@@ -1,0 +1,543 @@
+body {
+    margin: 0;
+}
+.pepsi_header {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 5.625rem;
+    box-sizing: border-box;
+    z-index: 99;
+}
+.header-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #0065c3;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+}
+.navigation-list {
+    display: flex;
+    position: relative;
+    list-style: none;
+    align-items: center;
+    margin: auto;
+    width: 95%;
+    padding: 0;
+}
+.logo {
+    text-indent: -100px;
+    margin-right: 4rem;
+    overflow: hidden;
+    width: 60px;
+    height: 60px;
+    background: url(pepsi-images/logo.png) no-repeat 0 0;
+    background-size: cover;
+}
+.navigation-list-item {
+    float: left;
+    margin-right: 2.75rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: .875rem;
+    cursor: pointer;
+    font-weight: bold;
+    white-space: nowrap;
+}
+.hero-bg {
+    align-items: start;
+    justify-content: end;
+    height: 750px;
+    width: 100%;
+    max-height: 960px;
+    display: flex;
+    background: url(pepsi-images/hero-background.png) center center no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.hero-container {
+    display: flex;
+    position: relative;
+    max-width: 1366px;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+}
+.pepsi-bottles {
+    max-width: 813px;
+    max-height: 590px;
+    left: -125px;
+    background: url(pepsi-images/hero-pic.png) center center no-repeat;
+    width: 63.281vw;
+    height: 53.125vw;
+    position: absolute;
+    background-position: right bottom -80px;
+    background-size: auto 115%;
+    bottom: 0;
+    box-sizing: border-box;
+}
+.text-image {
+    max-width: 488px;
+    max-height: 306px;
+    background: url(pepsi-images/hero-text-image.png) center center no-repeat;
+    height: 56.41vw;
+    width: 81.282vw;
+    background-size: auto 100%;
+    box-sizing: border-box;
+    position: absolute;
+    left: 650px;
+    top: 180px;
+}
+.zero-taste-section {
+    min-height: unset;
+    height: 668px;
+    width: 100vw;
+    flex-direction: row;
+    align-items: stretch;
+    max-height: 1024px;
+    background-color: #000;
+    display: flex;
+    flex-wrap: nowrap;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    position: relative;
+    padding: 0;
+    overflow: hidden;
+}
+.pepsi-can-image {
+    width: 55vw !important;
+    background: url(pepsi-images/zero-sugar-pic.png);
+    background-size: auto 115%;
+    background-position: right -100px bottom;
+    height: 100%;
+    max-height: unset;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+.right-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: start;
+    box-sizing: border-box;
+}
+.right-container-items {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.above-text {
+    position: relative;
+    right: 80px;
+    width: 486px;
+    max-width: 485px;
+    margin-top: 87.8px;
+    height: auto;
+    border-style: none;
+    box-sizing: border-box;
+}
+.below-text {
+    position: relative;
+    right: 74px;
+    width: 350.9px;
+    max-width: 349.8px;
+    margin-top: 22.8px;
+    height: auto;
+    border-style: none;
+    box-sizing: border-box;
+}
+.video-container {
+    display: flex;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+}
+.first-video {
+    position: absolute;
+    top: 441px;
+    left: 766px;
+    width: 15%;
+    height: auto;
+    border-style: none;
+    box-sizing: border-box;
+}
+.second-video {
+    position: absolute;
+    top: 441px;
+    left: 1012px;
+    width: 15%;
+    height: auto;
+    border-style: none;
+    box-sizing: border-box;
+}
+.pepsi-nitro-section {
+    min-height: unset;
+    height: 668px;
+    width: 100vw;
+    flex-direction: row;
+    align-items: stretch;
+    max-height: 1024px;
+    background-color: #000;
+    display: flex;
+    flex-wrap: nowrap;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    position: relative;
+    padding: 0;
+    overflow: hidden;
+}
+.pepsi-nitro-container {
+    background: url(pepsi-images/Desktop_Background.png);
+    background-position: 50% center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.pepsi-nitro-container-flex {
+    padding: 3vw 0 2vw 0;
+    flex-direction: row;
+    display: flex;
+    box-sizing: border-box;
+}
+.pepsi-nitro-logo {
+    justify-content: center;
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0px 0 0 2vw;
+}
+.nitro-logo {
+    width: 424px;
+    height: auto;
+}
+.pepsi-nitro-cans {
+    padding: 0 2vw 0 0;
+    order: -1;
+    align-items: flex-end;
+    display: flex;
+    justify-content: center;
+    flex: 50%;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.pepsi-nitro-cans-image {
+    width: 436px;
+    height: auto;
+    border-style: none;
+    box-sizing: border-box;
+}
+.three-container-section {
+    min-height: 700px;
+    max-height: 700px;
+    position: relative;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.back-pic {
+    width: 100%;
+    background-size: 163%;
+    background-position: 33% 0;
+    height: 100%;
+    background: url(pepsi-images/PEP_BWP_D.jpg);
+    background-repeat: no-repeat;
+    background-color: #265cc5;
+    position: absolute;
+    top: 0;
+    box-sizing: border-box;
+}
+.back-pic-tagline {
+    width: 37%;
+    bottom: 2%;
+    position: absolute;
+    right: 0;
+    box-sizing: border-box;
+}
+.tag-line {
+    width: 100%;
+    height: auto;
+    border-style: none;
+}
+.left-contaiiner {
+    left: 0;
+    width: 34%;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background: #265cc5;
+    position: absolute;
+    bottom: 0;
+    padding: 1.5em 1.5em 1.5em 1.5em;
+    box-sizing: border-box;
+}
+.images-slider {
+    visibility: visible;
+    position: relative;
+    box-sizing: border-box;
+}
+.slider-track {
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+    box-sizing: border-box;
+}
+.slider-list {
+    display: block;
+    height: 100%;
+    margin: 0!important;
+    padding: 0!important;
+    box-sizing: border-box;
+}
+.first-item {
+    width: 100% !important;
+    margin-bottom: 2em;
+    backface-visibility: hidden;
+    box-sizing: border-box;
+    list-style-type: none!important;
+    margin: 0;
+    position: relative;
+}
+.first-picture {
+    height: initial;
+    min-height: initial;
+    position: relative;
+    width: 100%;
+    margin: initial;
+    cursor: default;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.pic-thumbnail-overlay-continer {
+    width: 100%;
+    box-sizing: border-box;
+    cursor: default;
+}
+.pic-thumbnail-overlay {
+    background: #000;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    box-sizing: border-box;
+    cursor: default;
+}
+.first-image {
+    position: initial;
+    width: 100%;
+    object-fit: cover;
+    vertical-align: bottom;
+    height: auto;
+    border-style: none;
+}
+.first-image-text {
+    width: 100%;
+    box-sizing: border-box;
+    cursor: default;
+}
+.iamge-text {
+    position: relative;
+    left: 106px;
+    text-align: center;
+    line-height: 26px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+.pepsi-mango-section {
+    background: #2c629d url(pepsi-images/mango-bg.jpg) no-repeat fixed center;
+    background-size: cover;
+    min-height: 33rem;
+    position: relative;
+    width: 100%;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.pepsi-mango-section-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+.pepsi-mango-section-tag {
+    width: 28%;
+    top: 12%;
+    left: 3%;
+    z-index: 10;
+    position: absolute;
+    box-sizing: border-box;
+}
+.pepsi-mango-section-tag-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-style: none;
+    box-sizing: border-box;
+}
+.pepsi-mango-section-tag-second {
+    width: 28%;
+    top: 12%;
+    left: 3%;
+    z-index: 10;
+    position: absolute;
+    display: none;
+    box-sizing: border-box;
+}
+.pepsi-mango-section-tag-image-second {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-style: none;
+    box-sizing: border-box;
+}
+.bottom-tag {
+    bottom: 5%;
+    left: 3%;
+    width: 30%;
+    z-index: 20;
+    position: absolute;
+    display: block;
+    box-sizing: border-box;
+}
+.bottom-tag-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-style: none;
+    box-sizing: border-box;
+}
+.mango-slice {
+    top: 2%;
+    right: 4%;
+    width: 24%;
+    position: absolute;
+    display: none;
+    box-sizing: border-box;
+}
+.mango-slice-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-style: none;
+    box-sizing: border-box;
+}
+.after-video-section {
+    height: auto;
+    background: url(pepsi-images/twil-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #004ca7;
+    min-height: 33rem;
+    position: relative;
+    width: 100%;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.after-video-section-conatiner {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    text-align: center;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+.twil-can {
+    width: 55%;
+    height: 90%;
+    position: relative;
+    box-sizing: border-box;
+}
+.twil-can-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-top: 4em;
+    width: 100%;
+    border-style: none;
+    box-sizing: border-box;
+}
+.twil-can-tag {
+    margin: 0 auto;
+    width: 35%;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    box-sizing: border-box;
+}
+.twil-header-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 1em;
+    width: 100%;
+    border-style: none;
+    box-sizing: border-box;
+}
+.second-last-section {
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    height: 80%;
+    color: #0065c3;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+.social__title-container {
+    margin: auto;
+    text-align: center;
+    box-sizing: border-box;
+    color: #0065c3;
+}
+.social__title {
+    font-weight: 400;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    box-sizing: border-box;
+}
